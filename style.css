@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+main{
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+#principal{
+    width: 80%;
+    margin-left: 2%;
+}
+
+aside{
+    background-color: rgb(30, 48, 73);
+    text-align: center;
+    width: 20%;
+    height: 100vh;
+    border-right: 5px solid rgb(60, 93, 139);
+}
+
+#eu{
+    width: 36%;
+    height: 14vh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+#Introducao{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin: 2% 3% 3% 3%;
+    font-size: 90%;
+}
+
+span{
+    color: rgb(5, 173, 103);
+}
+
+#bemvindo{
+    font-size: 105%;
+}
+
+#redes-sociais{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin: 2% 30% 4% 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redesocial{
+    width: 20%;
+}
+
+#linha-aside{
+    margin: 0% 2%;
+}
+
+#meu-email{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#icon-email{
+    margin-right: 1%;
+    width: 6%;
+}
+
+#Titulo{
+    margin-top: 2%;
+    font-size: 220%;
+}
+
+#Subtitulo{
+    font-size: 140%;
+    margin: 1% 0%;
+    color: rgb(5, 173, 103);
+}
+
+.Lingua{
+    margin-bottom: 0.3%;
+    color: rgb(255, 255, 255);
+}
+
+.meu-resumo{
+    margin-bottom: 0.5%;
+}
+
+#Ver-Projetos{
+    padding: 0.3% 0%;
+}
+
+#compartilhar{
+    width: 3%;
+    border: 2px solid black;
+    margin: 0%;
+    padding: 0%;
+}
