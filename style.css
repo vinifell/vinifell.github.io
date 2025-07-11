@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+:root{
+    --verde: rgb(5, 173, 103);
+}
+
 main{
     display: flex;
     background-color: rgb(23, 23, 23);
@@ -11,7 +15,7 @@ main{
 
 #principal{
     width: 80%;
-    margin-left: 2%;
+    margin: 0% 2%;
 }
 
 aside{
@@ -24,7 +28,7 @@ aside{
 
 #eu{
     width: 36%;
-    height: 14vh;
+    height: calc(100% - 783px);
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
@@ -38,7 +42,7 @@ aside{
 }
 
 span{
-    color: rgb(5, 173, 103);
+    color: var(--verde);
 }
 
 #bemvindo{
@@ -80,7 +84,7 @@ span{
 #Subtitulo{
     font-size: 140%;
     margin: 1% 0%;
-    color: rgb(5, 173, 103);
+    color: var(--verde);
 }
 
 .Lingua{
@@ -93,12 +97,61 @@ span{
 }
 
 #Ver-Projetos{
-    padding: 0.3% 0%;
+    padding: 0.7% 0%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--verde);
+    border-radius: 3px;
+    border: none;
+    margin: 1% 0%;
+    cursor: pointer;
+    color: white;
+}
+
+#Ver-Projetos:hover{
+    background-color: black;
 }
 
 #compartilhar{
-    width: 3%;
-    border: 2px solid black;
+    width: 15%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Skills{
+    margin: 1% 0%;
+}
+
+#Conheca{
+    margin-bottom: 1%;
+}
+
+#habilidades{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+}
+
+.Categoria_Skills{
+    width: 33.2%;
+}
+
+.Titulo_Skills{
+    margin-bottom: 3%;
+    padding-left: 1%;
+    border-left: 5px solid var(--verde);
+}
+
+i{
+    font-size: 210%;
+}
+
+.imgskills{
+    width: 8%;
     margin: 0%;
-    padding: 0%;
 }
