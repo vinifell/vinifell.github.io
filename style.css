@@ -28,7 +28,7 @@ aside{
 
 #eu{
     width: 36%;
-    height: calc(100% - 783px);
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
@@ -98,7 +98,8 @@ span{
 
 #Ver-Projetos{
     padding: 0.7% 0%;
-    width: 8%;
+    width: 12%;
+    font-size: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +107,7 @@ span{
     background-color: var(--verde);
     border-radius: 3px;
     border: none;
-    margin: 1% 0%;
+    margin: 1.5% 0%;
     cursor: pointer;
     color: white;
 }
