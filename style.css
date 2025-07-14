@@ -46,16 +46,15 @@ aside{
     margin-top: 2%;
     margin-bottom: 3%;
     margin: 2% 3% 3% 3%;
-    font-size: 90%;
-    font-size: ;
+    font-size: 0.75vw;
 }
 
 span{
     color: var(--verde);
 }
 
-#bemvindo{
-    font-size: 105%;
+.bemvindo{
+    font-size: 0.9vw;
 }
 
 #redes-sociais{
@@ -78,6 +77,10 @@ span{
     margin: 3%;
     display: flex;
     justify-content: center;
+}
+
+#email{
+    font-size: 0.85vw;
 }
 
 #icon-email{
@@ -163,10 +166,76 @@ a{
 }
 
 i{
-    font-size: 210%;
+    font-size: 1.8vw;
 }
 
 .imgskills{
     width: 8%;
     margin: 0%;
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        grid-template-columns: 100%;
+        grid-template-rows: 57vh 43vh;
+    }
+
+    aside{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: rgb(30, 48, 73);
+        text-align: center;
+        width: 100%;
+        height: 62vh;
+        border-bottom: 5px solid rgb(60, 93, 139);
+        border-right: none;
+    }
+
+    #meu-nome{
+        font-size: 6vw;
+        margin-bottom: 2%;
+    }
+
+    #Introducao{
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin: 2% 3% 3% 3%;
+        font-size: 3.3vw;
+    }
+
+    .bemvindo{
+        font-size: 4vw;
+        display: inline-block;
+    }
+
+    #redes-sociais{
+        margin-top: 2%;
+        margin-bottom: 4%;
+        margin: 2% 30% 4% 30%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #linha-aside{
+        margin: 0% 4%;
+    }
+
+    #meu-email{
+        margin: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #email{
+        font-size: 4vw;
+    } 
+    
+    #principal{
+        grid-column: 1/1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 10%;
+    }
 }
