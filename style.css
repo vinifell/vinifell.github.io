@@ -175,9 +175,13 @@ i{
 }
 
 @media screen and (max-width: 600px) {
+    body, html{
+        background-color: rgb(23, 23, 23);
+    }
+    
     main{
         grid-template-columns: 100%;
-        grid-template-rows: 36% 1fr 1fr;
+        grid-template-rows: 40% 1fr;
     }
 
     aside{
@@ -234,19 +238,19 @@ i{
     
     #principal{
         grid-column: 1/1;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin-top: 2%;
+        grid-row: 2/3;
+        margin-top: 0%;
+        height: 110vh;
     }
 
     #Titulo{
-        margin-top: 2%;
-        font-size: 5vw;
+        margin-top: 0%;
+        font-size: 7vw;
         text-align: center;
     }
 
     #Subtitulo{
-        font-size: 3vw;
+        font-size: 4.5vw;
         margin: 1% 0%;
         margin-bottom: 2%;
         color: var(--verde);
@@ -254,15 +258,17 @@ i{
     }
 
     .Lingua{
+        margin: 0% 3.5%;
         margin-bottom: 0.3%;
         color: rgb(255, 255, 255);
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .meu-resumo{
+        margin: 0% 4%;
         margin-bottom: 1%;
-        font-size: 1.5vw;
-        letter-spacing: 0.2vw;
+        font-size: 3vw;
+        letter-spacing: 0.1vw;
     }
 
     #Ver-Projetos{
@@ -291,13 +297,13 @@ i{
 
     #Skills{
         margin: 1% 0%;
-        font-size: 3vw;
+        font-size: 5vw;
         text-align: center;  
     }
 
     #Conheca{
         margin-bottom: 1%;
-        font-size: 2vw;
+        font-size: 4vw;
         text-align: center;
     }
 
@@ -305,27 +311,27 @@ i{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 0% 2%;
+        margin: 0% 4%;
     }
 
     .Categoria_Skills{
-        width: 40%;
+        width: 50%;
         margin-bottom: 3%;
     }
 
     .Titulo_Skills{
         margin-bottom: 3%;
         padding-left: 1%;
-        border-left: 0.8vw solid var(--verde);
-        font-size: 3vw;
+        border-left: 1vw solid var(--verde);
+        font-size: 4vw;
     }
 
     i{
-        font-size: 5vw;
+        font-size: 8vw;
     }
 
     .imgskills{
-        width: 13%;
+        width: 17%;
         margin: 0%;
     }
 }
