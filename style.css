@@ -177,7 +177,7 @@ i{
 @media screen and (max-width: 600px) {
     main{
         grid-template-columns: 100%;
-        grid-template-rows: 57vh 43vh;
+        grid-template-rows: 36% 1fr 1fr;
     }
 
     aside{
@@ -188,7 +188,7 @@ i{
         background-color: rgb(30, 48, 73);
         text-align: center;
         width: 100%;
-        height: 62vh;
+        height: 100vw;
         border-bottom: 5px solid rgb(60, 93, 139);
         border-right: none;
     }
@@ -236,8 +236,96 @@ i{
         grid-column: 1/1;
         grid-row-start: 2;
         grid-row-end: 3;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
+    #Titulo{
+        margin-top: 2%;
+        font-size: 5vw;
+        text-align: center;
+    }
 
+    #Subtitulo{
+        font-size: 3vw;
+        margin: 1% 0%;
+        margin-bottom: 2%;
+        color: var(--verde);
+        text-align: center;
+    }
+
+    .Lingua{
+        margin-bottom: 0.3%;
+        color: rgb(255, 255, 255);
+        font-size: 2vw;
+    }
+
+    .meu-resumo{
+        margin-bottom: 1%;
+        font-size: 1.5vw;
+        letter-spacing: 0.2vw;
+    }
+
+    #Ver-Projetos{
+        padding: 0.7% 0%;
+        width: 25%;
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: var(--verde);
+        border-radius: 5px;
+        border: none;
+        margin: 1.5% 0%;
+        cursor: pointer;
+        color: white;
+    }
+
+    #teste{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Ver-Projetos:hover{
+    }
+
+    #Skills{
+        margin: 1% 0%;
+        font-size: 3vw;
+        text-align: center;  
+    }
+
+    #Conheca{
+        margin-bottom: 1%;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #habilidades{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0% 2%;
+    }
+
+    .Categoria_Skills{
+        width: 40%;
+        margin-bottom: 3%;
+    }
+
+    .Titulo_Skills{
+        margin-bottom: 3%;
+        padding-left: 1%;
+        border-left: 0.8vw solid var(--verde);
+        font-size: 3vw;
+    }
+
+    i{
+        font-size: 5vw;
+    }
+
+    .imgskills{
+        width: 13%;
+        margin: 0%;
+    }
 }
